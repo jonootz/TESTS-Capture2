@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment="reg multi parent"
+    Name="CompanyName (Multi)">MadCap Software</Variable>
+  <Variable
+    Comment="single var"
+    Name="PhoneNumber">858 123 4567</Variable>
+  <Variable
+    Name="ProductA"
+    Comment="another single var"
+    Definition="Some text">Product A</Variable>
+  <Variable
+    Name="CompanyName (Multi)"
+    Comment="reg multi child 1">2nd Def MadCap Software</Variable>
+  <Variable
+    Name="CompanyName (Multi)"
+    Comment="reg multi child 2">3rd Def MadCap Software</Variable>
+  <Variable
+    Name="NewDateTimeVariable"
+    Comment="single DT var"
+    Type="DateTime">hh:mm</Variable>
+  <Variable
+    Name="NewDateTime2 (Multi)"
+    Comment="DT multi parent"
+    Type="DateTime">MMMM yyyy</Variable>
+  <Variable
+    Name="NewDateTime2 (Multi)"
+    Comment="DT multi child 1"
+    Type="DateTime">"2nd Def" MMMM yy</Variable>
+  <Variable
+    Name="NewDateTime2 (Multi)"
+    Comment="DT multi child 2"
+    Type="DateTime">"3rd Def" MMMM y</Variable>
+  <Variable
+    Name="3NewDateTimeVariable3"
+    Comment="single DT"
+    Type="DateTime">dddd</Variable>
+  <Variable
+    Name="Version 9"
+    Comment="another reg multi parent">09.00.00.00</Variable>
+  <Variable
+    Name="Version 9"
+    Comment="another reg multi child 1">09.10.00.00</Variable>
+  <Variable
+    Name="Version 9"
+    Comment="another reg multi child 2">09.11.00.00</Variable>
+  <Variable
+    Name="Version 9"
+    Comment="another reg multi child 3">09.12.00.00</Variable>
+  <Variable
+    Name="Version 10"
+    Comment="yet another single var">10.00.00.00</Variable>
+</CatapultVariableSet>

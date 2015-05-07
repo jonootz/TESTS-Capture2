@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment="g"
+    Name="g-i   Regular Variable - Multiple Def">g   MadCap Software</Variable>
+  <Variable
+    Name="j   Regular Variable - Single Def"
+    Comment="j"
+    Definition="Some text">j   Product A</Variable>
+  <Variable
+    Name="g-i   Regular Variable - Multiple Def"
+    Comment="h">h   MCap</Variable>
+  <Variable
+    Name="g-i   Regular Variable - Multiple Def"
+    Comment="i">i   MC Software</Variable>
+  <Variable
+    Name="a-c   DateTimeVariable - Multiple Def"
+    Comment="a"
+    Type="DateTime">a   dddd, MMMM d, yyyy</Variable>
+  <Variable
+    Name="a-c   DateTimeVariable - Multiple Def"
+    Comment="b"
+    Type="DateTime">b   MMMM d, yyyy</Variable>
+  <Variable
+    Name="a-c   DateTimeVariable - Multiple Def"
+    Comment="c"
+    Type="DateTime">c   MMMM yyyy</Variable>
+  <Variable
+    Name="d   DateTimeVariable - Single Def"
+    Comment="d"
+    Type="DateTime">"d"   hh:mm tt on dd MMMM, yyyy</Variable>
+  <Variable
+    Name="e   NewDateTimeVariable"
+    Comment="e-empty"
+    Type="DateTime" />
+  <Variable
+    Name="f   NewVariable"
+    Comment="f-empty" />
+</CatapultVariableSet>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Name="d"
+    Comment="Short date pattern."
+    Type="DateTime">d</Variable>
+  <Variable
+    Name="D"
+    Comment="Long date pattern."
+    Type="DateTime">D</Variable>
+  <Variable
+    Name="f"
+    Comment="Full date/time pattern (short time)."
+    Type="DateTime">f</Variable>
+  <Variable
+    Name="F"
+    Comment="Full date/time pattern (long time)."
+    Type="DateTime">F</Variable>
+  <Variable
+    Name="g"
+    Comment="General date/time pattern (short time)."
+    Type="DateTime">g</Variable>
+  <Variable
+    Name="G"
+    Comment="General date/time pattern (long time)."
+    Type="DateTime">G</Variable>
+  <Variable
+    Name="M | m"
+    Comment="Month/day pattern."
+    Type="DateTime">M</Variable>
+  <Variable
+    Name="M | m"
+    Comment=""
+    Type="DateTime">m</Variable>
+  <Variable
+    Name="O | o"
+    Comment="Round-trip date/time pattern."
+    Type="DateTime">O</Variable>
+  <Variable
+    Name="O | o"
+    Comment=""
+    Type="DateTime">o</Variable>
+  <Variable
+    Name="R | r"
+    Comment="RFC1123 pattern."
+    Type="DateTime">R</Variable>
+  <Variable
+    Name="s"
+    Comment="Sortable date/time pattern."
+    Type="DateTime">s</Variable>
+  <Variable
+    Name="R | r"
+    Comment=""
+    Type="DateTime">r</Variable>
+  <Variable
+    Name="t"
+    Comment="Short time pattern."
+    Type="DateTime">t</Variable>
+  <Variable
+    Name="T"
+    Comment="Long time pattern."
+    Type="DateTime">T</Variable>
+  <Variable
+    Name="u"
+    Comment="Universal sortable date/time pattern."
+    Type="DateTime">u</Variable>
+  <Variable
+    Name="NewDateTimeVariable"
+    Comment="Universal full date/time pattern."
+    Type="DateTime">U</Variable>
+  <Variable
+    Name="Y | y"
+    Comment="Year month pattern."
+    Type="DateTime">Y</Variable>
+  <Variable
+    Name="Y | y"
+    Comment=""
+    Type="DateTime">y</Variable>
+</CatapultVariableSet>

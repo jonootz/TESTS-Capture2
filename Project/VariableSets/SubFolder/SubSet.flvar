@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment="Sub single var"
+    Name="Sub Regular 1">Reg Definition from subset</Variable>
+  <Variable
+    Comment="Sub Multi Parent"
+    Name="Sub Regular 2 (Multi)">Main Def for variable w multi defs in subset</Variable>
+  <Variable
+    Name="Sub Regular 2 (Multi)"
+    Comment="Sub Multi Child 1">2nd Def for variable w multi defs in subset</Variable>
+  <Variable
+    Name="Sub Regular 2 (Multi)"
+    Comment="Sub Multi Child 2">3rd Def for variable w multi defs in subset</Variable>
+  <Variable
+    Name="Sub DateTime 1"
+    Comment="Sub single DT var"
+    Type="DateTime">"Sub Single" hh:mm tt</Variable>
+  <Variable
+    Name="Sub DateTime 2 (multi)"
+    Comment="Sub Multi Parent DT"
+    Type="DateTime">"Main Def Sub DT var" MMMM yyyy</Variable>
+  <Variable
+    Name="Sub DateTime 2 (multi)"
+    Comment="Sub Multi Child DT 1"
+    Type="DateTime">"2nd Def Sub DT var" MMMM yyyy</Variable>
+  <Variable
+    Name="Sub DateTime 2 (multi)"
+    Comment="Sub Multi Child DT 2"
+    Type="DateTime">"3rd Def Sub DT var" MMMM yyyy</Variable>
+</CatapultVariableSet>

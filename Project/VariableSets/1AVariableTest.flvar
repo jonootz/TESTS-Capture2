@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Name="1_Regular"
+    Comment="z">apple</Variable>
+  <Variable
+    Name="3_Regular"
+    Comment="v">cherry</Variable>
+  <Variable
+    Name="2_Regular1"
+    Comment="y">pear</Variable>
+  <Variable
+    Name="CDateTime"
+    Comment="q"
+    Type="DateTime">"green bean" hh:mm tt</Variable>
+  <Variable
+    Name="ADateTime"
+    Comment="u"
+    Type="DateTime">"tomato" hh:mm tt</Variable>
+  <Variable
+    Name="BDateTime"
+    Comment="t"
+    Type="DateTime">"potato" hh:mm tt</Variable>
+  <Variable
+    Name="2_Regular1"
+    Comment="a">grape</Variable>
+  <Variable
+    Name="2_Regular1"
+    Comment="c">banana</Variable>
+  <Variable
+    Name="BDateTime"
+    Comment="b"
+    Type="DateTime">"zucchini" hh:mm tt "child1"</Variable>
+  <Variable
+    Name="BDateTime"
+    Comment="d"
+    Type="DateTime">"broccoli" hh:mm tt "child2"</Variable>
+</CatapultVariableSet>

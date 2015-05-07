@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  AutoSizeCaptureCaptions="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="1AVariableTest/1_Regular">e</Variable>
+    <Variable
+      Name="1AVariableTest/2_Regular1">e</Variable>
+    <Variable
+      Name="1AVariableTest/3_Regular">e</Variable>
+    <Variable
+      Name="1AVariableTest/ADateTime"
+      Type="DateTime">"e" hh:mm tt</Variable>
+    <Variable
+      Name="1AVariableTest/BDateTime"
+      Type="DateTime">"e" hh:mm tt "child1"</Variable>
+    <Variable
+      Name="1AVariableTest/CDateTime"
+      Type="DateTime">"e" hh:mm tt</Variable>
+    <Variable
+      Name="SubFolder/SubSet/Sub DateTime 1"
+      Type="DateTime">"e" hh:mm tt</Variable>
+    <Variable
+      Name="SubFolder/SubSet/Sub DateTime 2 (multi)"
+      Type="DateTime">"er" MMMM yyyy</Variable>
+    <Variable
+      Name="SubFolder/SubSet/Sub Regular 1">e</Variable>
+    <Variable
+      Name="SubFolder/SubSet/Sub Regular 2 (Multi)">e</Variable>
+    <Variable
+      Name="Variables/CompanyName">e</Variable>
+    <Variable
+      Name="Variables/PhoneNumber">e</Variable>
+    <Variable
+      Name="Variables123ABC/1_Regular">e</Variable>
+    <Variable
+      Name="Variables123ABC/2_Regular">e</Variable>
+    <Variable
+      Name="Variables123ABC/2DateTime"
+      Type="DateTime">"2ee" hh:mm tt</Variable>
+    <Variable
+      Name="Variables123ABC/3_Regular">e</Variable>
+    <Variable
+      Name="Variables123ABC/3DateTime"
+      Type="DateTime">"3ee" hh:mm tt</Variable>
+    <Variable
+      Name="Variables123ABC/A_Regular">e</Variable>
+    <Variable
+      Name="Variables123ABC/ADateTime"
+      Type="DateTime">"e" hh:mm tt</Variable>
+    <Variable
+      Name="Variables123ABC/B_Regular">e</Variable>
+    <Variable
+      Name="Variables123ABC/BDateTime"
+      Type="DateTime">"ee" hh:mm tt</Variable>
+    <Variable
+      Name="Variables123ABC/C_Regular">e</Variable>
+    <Variable
+      Name="Variables123ABC/CDateTime"
+      Type="DateTime">e h</Variable>
+  </Variables>
+</CatapultTarget>
